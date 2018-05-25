@@ -1,7 +1,32 @@
 /* 
  * Add your own CSS code for the WYSIWYG editor 
  */
+.post__image--left {
+	float: left;
+	margin-right: 2rem;
+	max-width: 50%;
+}
 
+.post__image--right {
+	float: right;
+	margin-left: 2rem;
+	max-width: 50%;
+}
+
+.post__image--center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.post__image--wide {
+	text-align: center;
+}
+
+.post__image--full {
+	text-align: center;
+}
 .msg {
 	padding: 1.06667rem 1.6rem;
 }
@@ -25,5 +50,3 @@
   margin-right: 0.5rem;
   padding: 0.5rem 0.5rem 0.5rem 0;
 }
-
-
